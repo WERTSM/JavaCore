@@ -8,6 +8,7 @@ public class BooleanTypes {
         boolean a=true;
         boolean b=false;
 
+        //Условное И (ищет false)
         System.out.println("a&&b="+(a&&b));
         System.out.println("a&&b="+(b&&a));
         System.out.println("a&&a="+(a&&a));
@@ -20,6 +21,7 @@ public class BooleanTypes {
         System.out.println("b&b="+(b&b));
         System.out.println();
 
+        //Условное ИЛИ (ищет true)
         System.out.println("a||b="+(a||b));
         System.out.println("b||a="+(b||a));
         System.out.println("a||a="+(a||a));
@@ -31,7 +33,11 @@ public class BooleanTypes {
         System.out.println("a|a="+(a|a));
         System.out.println("b|b="+(b|b));
         System.out.println();
+        //если 'a' и 'b' одинаковые имеют значение,
+        // то рез-т логических операций "И" и "ИЛИ" будет равен этому значению
 
+        //исключающее ИЛИ (ищет true)
+        //если 'a' и 'b' одинаковые имеют значение, то вернет false
         System.out.println("a^b="+(a^b));
         System.out.println("b^a="+(b^a));
         System.out.println("a^a="+(a^a));
