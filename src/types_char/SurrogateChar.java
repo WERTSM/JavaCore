@@ -1,4 +1,4 @@
-package char_types;
+package types_char;
 
 /**
  * Created by WERT on 14.12.2016.

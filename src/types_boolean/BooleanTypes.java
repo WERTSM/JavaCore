@@ -1,4 +1,4 @@
-package boolean_types;
+package types_boolean;
 /**
  * Created by WERT on 13.12.2016.
  */
