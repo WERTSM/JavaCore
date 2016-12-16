@@ -61,6 +61,11 @@ public class KolosFourVar {
             cost3 = (price3.multiply(space3)).setScale(2, BigDecimal.ROUND_HALF_UP);
             cost4 = (price4.multiply(space4)).setScale(2, BigDecimal.ROUND_HALF_UP);
             tempTotalAmount = tempTotalAmount.add(cost1).add(cost2).add(cost3).add(cost4);
+            if (tempTotalAmount.compareTo(totalAmount) == 0) {
+                System.out.println("\n---------------YES---------------\n");
+                System.out.println("space1 = " + forSpace1 + "; space2 = " + space2 + "; space3 = " + space3 + "; space4 = " + space4);
+                System.out.println("\n---------------YES---------------\n");
+            }
             if (tempTotalAmount.compareTo(totalAmount) < 0) {
                 for (BigDecimal forSpace2 = space2; forSpace2.compareTo(limit2) <= 0; forSpace2 = forSpace2.add(step2)) {
                     tempTotalAmount = BigDecimal.valueOf(0.00);
@@ -69,6 +74,11 @@ public class KolosFourVar {
                     cost3 = (price3.multiply(space3)).setScale(2, BigDecimal.ROUND_HALF_UP);
                     cost4 = (price4.multiply(space4)).setScale(2, BigDecimal.ROUND_HALF_UP);
                     tempTotalAmount = tempTotalAmount.add(cost1).add(cost2).add(cost3).add(cost4);
+                    if (tempTotalAmount.compareTo(totalAmount) == 0) {
+                        System.out.println("\n---------------YES---------------\n");
+                        System.out.println("space1 = " + forSpace1 + "; space2 = " + forSpace2 + "; space3 = " + space3 + "; space4 = " + space4);
+                        System.out.println("\n---------------YES---------------\n");
+                    }
                     if (tempTotalAmount.compareTo(totalAmount) < 0) {
                         for (BigDecimal forSpace3 = space3; forSpace3.compareTo(limit3) <= 0; forSpace3 = forSpace3.add(step3)) {
                             tempTotalAmount = BigDecimal.valueOf(0.00);
@@ -77,6 +87,11 @@ public class KolosFourVar {
                             cost3 = (price3.multiply(forSpace3)).setScale(2, BigDecimal.ROUND_HALF_UP);
                             cost4 = (price4.multiply(space4)).setScale(2, BigDecimal.ROUND_HALF_UP);
                             tempTotalAmount = tempTotalAmount.add(cost1).add(cost2).add(cost3).add(cost4);
+                            if (tempTotalAmount.compareTo(totalAmount) == 0) {
+                                System.out.println("\n---------------YES---------------\n");
+                                System.out.println("space1 = " + forSpace1 + "; space2 = " + forSpace2 + "; space3 = " + forSpace3 + "; space4 = " + space4);
+                                System.out.println("\n---------------YES---------------\n");
+                            }
                             if (tempTotalAmount.compareTo(totalAmount) < 0) {
                                 for (BigDecimal forSpace4 = space4; forSpace4.compareTo(limit4) <= 0; forSpace4 = forSpace4.add(step4)) {
                                     tempTotalAmount = BigDecimal.valueOf(0.00);
