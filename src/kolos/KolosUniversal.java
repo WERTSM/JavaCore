@@ -29,30 +29,31 @@ public class KolosUniversal {
         double minDoubleSpace2 = 200.00;
         double minDoubleSpace3 = 800.00;
 
-        BigDecimal totalAmount=BigDecimal.valueOf(doubleTotalAmount);
+        BigDecimal totalAmount = BigDecimal.valueOf(doubleTotalAmount);
 
-        BigDecimal[] firstVar = new BigDecimal[3];
+        BigDecimal[] firstVar = new BigDecimal[4];
         firstVar[0] = BigDecimal.valueOf(doublePrice1);
         firstVar[1] = BigDecimal.valueOf(minDoubleSpace1);
         firstVar[2] = BigDecimal.valueOf(doubleLimit1);
         firstVar[3] = BigDecimal.valueOf(doubleStep1);
 
-        BigDecimal[] secondVar = new BigDecimal[3];
-        firstVar[0] = BigDecimal.valueOf(doublePrice2);
-        firstVar[1] = BigDecimal.valueOf(minDoubleSpace2);
-        firstVar[2] = BigDecimal.valueOf(doubleLimit2);
-        firstVar[3] = BigDecimal.valueOf(doubleStep2);
+        BigDecimal[] secondVar = new BigDecimal[4];
+        secondVar[0] = BigDecimal.valueOf(doublePrice2);
+        secondVar[1] = BigDecimal.valueOf(minDoubleSpace2);
+        secondVar[2] = BigDecimal.valueOf(doubleLimit2);
+        secondVar[3] = BigDecimal.valueOf(doubleStep2);
 
-        BigDecimal[] ferstVar = new BigDecimal[3];
-        firstVar[0] = BigDecimal.valueOf(doublePrice3);
-        firstVar[1] = BigDecimal.valueOf(minDoubleSpace3);
-        firstVar[2] = BigDecimal.valueOf(doubleLimit3);
-        firstVar[3] = BigDecimal.valueOf(doubleStep3);
+        BigDecimal[] ferstVar = new BigDecimal[4];
+        ferstVar[0] = BigDecimal.valueOf(doublePrice3);
+        ferstVar[1] = BigDecimal.valueOf(minDoubleSpace3);
+        ferstVar[2] = BigDecimal.valueOf(doubleLimit3);
+        ferstVar[3] = BigDecimal.valueOf(doubleStep3);
 
         varags.add(firstVar);
         varags.add(secondVar);
         varags.add(ferstVar);
 
         KolosFor kolosFor = new KolosFor(varags, totalAmount);
+        kolosFor.umaturman(ferstVar);
     }
 }

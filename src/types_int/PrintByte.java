@@ -5,22 +5,16 @@ package types_int;
  */
 public class PrintByte {
     public static void printByte(byte printByte) {
-
         byte byteForPrint = (byte) printByte;
-
         String byteBinayStr = String.format("%8s", Integer.toBinaryString(byteForPrint & 0xFF)).replace(' ', '0');
-
         byteBinayStr = byteBinayStr.substring(0, 4) + "_" + byteBinayStr.substring(4);
-
-        System.out.println(byteBinayStr);
+        System.out.print(byteBinayStr);
     }
 
     public static void printlnByte(byte printByte) {
         byte byteForPrint = (byte) printByte;
-        String byteBinayStr = String.format("%8s",
-                Integer.toBinaryString(byteForPrint & 0xFF)).replace(' ', '0');
-        byteBinayStr = byteBinayStr.substring(0, 4) + "_"
-                + byteBinayStr.substring(4);
+        String byteBinayStr = String.format("%8s", Integer.toBinaryString(byteForPrint & 0xFF)).replace(' ', '0');
+        byteBinayStr = byteBinayStr.substring(0, 4) + "_" + byteBinayStr.substring(4);
         System.out.println(byteBinayStr);
     }
 
