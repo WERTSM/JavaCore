@@ -1,4 +1,4 @@
-import static pro.java.util.Print.*;
+package types_conversions;
 
 public class TypeConv01 {
 
@@ -10,17 +10,17 @@ public class TypeConv01 {
 		long l=i;
 		float f=l;
 		double d=f;
-		println("b="+b+" s="+s+" i="+i+" l="+l+" f="+f+" d="+d);
+		System.out.println("b="+b+" s="+s+" i="+i+" l="+l+" f="+f+" d="+d);
 		char c=0x401;
 		i=c;
 		l=c;
 		f=c;
 		d=c;
-		println("c="+c+" i="+i+" l="+l+" f="+f+" d="+d);
-		println("\nПреобразование с потерей точности");
+		System.out.println("c="+c+" i="+i+" l="+l+" f="+f+" d="+d);
+		System.out.println("\nПреобразование с потерей точности");
 		i=0b11_1111_1111_1111_1111_1111_1111;
 		f=i;
-		println("i="+i);
-		println("f="+f);
+		System.out.println("i="+i);
+		System.out.println("f="+f);
 	}
 }
