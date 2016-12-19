@@ -1,4 +1,4 @@
-package types_boolean;
+package primitive_types._boolean;
 /**
  * Created by WERT on 13.12.2016.
  */

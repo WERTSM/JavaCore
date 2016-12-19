@@ -1,4 +1,4 @@
-package types.floating.point;
+package primitive_types._float_double;
 
 /**
  * Created by WORK_WERT on 18.12.2016.

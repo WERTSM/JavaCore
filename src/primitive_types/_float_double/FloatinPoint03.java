@@ -1,5 +1,4 @@
-
-package types.floating.point;
+package primitive_types._float_double;;
 public class FloatinPoint03 {
 
 	public static void main(String[] args) {

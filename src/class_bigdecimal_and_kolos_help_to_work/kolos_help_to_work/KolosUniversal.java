@@ -1,4 +1,4 @@
-package kolos;
+package class_bigdecimal_and_kolos_help_to_work.kolos_help_to_work;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

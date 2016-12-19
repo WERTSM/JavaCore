@@ -1,4 +1,4 @@
-package types_char;
+package primitive_types._char;
 
 /**
  * Created by WERT on 14.12.2016.

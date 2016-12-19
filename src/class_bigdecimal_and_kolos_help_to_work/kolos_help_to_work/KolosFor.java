@@ -1,8 +1,6 @@
-package kolos;
+package class_bigdecimal_and_kolos_help_to_work.kolos_help_to_work;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
@@ -42,7 +40,7 @@ public class KolosFor {
             }
             //else umaturman(iter.previous());
 
-
+// а так? интересно повлияю ли на гитхаб
         }
     }
 }
