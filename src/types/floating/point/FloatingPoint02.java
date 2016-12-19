@@ -9,7 +9,7 @@ public class FloatingPoint02 {
 		System.out.println("d= " + d);
 		System.out.println("f= " + f);
 		System.out.println("---------");
-		System.out.println("0.35-0.33 = " + (0.35 + 0.33));
+		System.out.println("0.35+0.33 = " + (0.35 + 0.33));
 		System.out.println("---------");
 		double d01 = 0.1;
 		double d00 = 0;
