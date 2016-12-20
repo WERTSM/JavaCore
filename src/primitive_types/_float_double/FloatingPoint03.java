@@ -1,5 +1,6 @@
-package primitive_types._float_double;;
-public class FloatinPoint03 {
+
+package primitive_types._float_double;
+public class FloatingPoint03 {
 
 	public static void main(String[] args) {
 		

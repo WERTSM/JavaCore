@@ -12,6 +12,7 @@ public class TypeConv01 {
         //byte b1 = лонг; ошибка и не умещается
         byte b1 = (byte) лонг; //очень не точно преобразуем
         System.out.println("b1 = " + b1);
+
         short s = b;
         int i = s;
         long l = i;
