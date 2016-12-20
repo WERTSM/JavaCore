@@ -1,5 +1,5 @@
 package types_conversions;
-import static types_int.PrintByte.*;
+import static primitive_types._byte_short_int_long.PrintByte.*;
 
 public class TypeConv02 {
 
@@ -21,7 +21,7 @@ public class TypeConv02 {
 		System.out.print("198 в двоичном виде = ");
 		printlnInt((454 % 256));
 		b = (byte) (454 % 256);
-		System.out.print("b десятичное = " + b + "   b двовичное = ");
+		System.out.print("b десятичное = " + b + "   b двоичное = ");
 		printlnByte(b);
 		System.out.println("-------------");
 		float bFloat = 10_000_000_000f;
@@ -42,7 +42,7 @@ public class TypeConv02 {
 		// 1_000_000_000_000L литерал больше допустимого значения int
 		i3 += 1_000_000_000_000L; // но это скомпилируется
 		System.out.println("i3 десятичное = " + i3);
-		System.out.print("i3 двовичное = ");
+		System.out.print("i3 двоичное = ");
 		printlnInt(i3);
 		System.out.println("-------------");
 		Byte myB; // объект класса Byte
