@@ -2,7 +2,7 @@ package operators_and_statements;
 
 public class Operators01 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //Передаем 3 аргумента в командной строке
 		// Простые примеры использования некоторых операторов
 
 		System.out.println("Total: " + 3 + 4); // Отображает "Total: 34", не 7!
@@ -17,7 +17,7 @@ public class Operators01 {
 
 		System.out.println("Передано аргументов в командной строке: " + args.length);
 		String sArgs = null;
-		sArgs = (args.length != 0) ? args[0] : "unknown";
+		sArgs = (args.length != 0) ? (args[0]+" "+args[1]+" "+args[2]) : "unknown";
 		System.out.println("name = " + sArgs);
 	}
 }
