@@ -3,7 +3,7 @@ package operators_and_statements;
 public class Operators03DoWhile {
 
 	public static void main(String[] args) {
-		// Пример оператора do wile
+		// Пример оператора do while
 		int i = args.length;
 		do {
 			if (i == 0) break; // если нет аргументов то выходим из цикла
