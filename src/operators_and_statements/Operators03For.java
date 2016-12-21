@@ -16,6 +16,7 @@ public class Operators03For {
 			System.out.println("Сейчас j = " + j);
 			System.out.println("Hello " + args[j]);
 		}
+		int j=8;//Могу создать с таким же именем
 		// println("j = " + j); // j не доступна вне цикла
 
 		int a, b;

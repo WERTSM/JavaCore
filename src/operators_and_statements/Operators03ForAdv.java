@@ -6,8 +6,8 @@ public class Operators03ForAdv {
 		// пример продвинутого оператора for
 
 		int i = 0;
-		for (boolean b = args.length > 0; b; System.out.println("Итерация " + i
-				+ " завершена")) {
+		for (boolean b = args.length > 0; b; System.out.println("Итерация " + i	+ " завершена")) //нельзя разные типы инииализировать - for(int v =6, short =3;;)//error
+		{
 			System.out.println("\nПривет " + args[i]);
 			b = args.length > ++i;
 		}

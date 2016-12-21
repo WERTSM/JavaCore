@@ -1,4 +1,4 @@
-package class_bigdecimal_and_kolos_help_to_work.kolos_help_to_work;
+package classes_bigdecimal_and_biginteger.class_bigdecimal_and_kolos_help_to_work.kolos_help_to_work;
 
 import java.math.BigDecimal;
 import java.util.List;

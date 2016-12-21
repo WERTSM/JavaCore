@@ -1,7 +1,6 @@
 package primitive_types._byte_short_int_long;
 
 import static primitive_types._byte_short_int_long.PrintByte.*;
-
 /**
  * Created by WERT on 15.12.2016.
  */

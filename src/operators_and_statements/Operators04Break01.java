@@ -12,7 +12,7 @@ public class Operators04Break01 {
 		}
 		System.out.println("Цикл завершен.");
 
-		for (int i = 1; i < 4; ++i) {
+		extloop: for (int i = 1; i < 4; ++i) {
 			System.out.print("\nВнешний цикл. Итерация " + i + "\nВнутренний цикл:");
 			for (int j = 1; j < 100; ++j) {
 				if (j > 4) break;
