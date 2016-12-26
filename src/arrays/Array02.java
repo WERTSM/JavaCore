@@ -32,6 +32,10 @@ public class Array02 {
 					intArray[j + 1] = tmp;
 				}
 			}
+			System.out.print("\nМассив intArray после "+i+" итой итерациии: ");
+			for (int x : intArray) {
+				System.out.print(" " + x);
+			}
 		}
 
 		System.out.print("\nМассив intArray после сортировки: ");
