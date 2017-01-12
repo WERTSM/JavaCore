@@ -15,18 +15,21 @@ public class String014 {
         String s5 = new String("Hello"); // Строковый объект
         String s6 = new String("World"); // Строковый объект
         String s7 = s5; // одинаковые ссылки
+        String s8 = new String("Spartak"); // Строковый объект
+        String s9 = "Spartak";
 
-        System.out.println("s1==s2 это " + (s1 == s2) + " разные ссылки");
-        System.out.println("s1==s3 это " + (s1 == s3) + " одинаковые ссылки");
-        System.out.println("s7==s5 это " + (s7 == s5) + " одинаковые ссылки");
-        System.out.println("s1==s4 это " + (s1 == s4) + " разные ссылки");
-        System.out.println("s2==s6 это " + (s2 == s6) + " разные ссылки");
+        System.out.println("s1==s2 это " + (s1 == s2) + " разные ссылки");//f
+        System.out.println("s1==s3 это " + (s1 == s3) + " одинаковые ссылки");//t
+        System.out.println("s7==s5 это " + (s7 == s5) + " одинаковые ссылки");//t
+        System.out.println("s1==s4 это " + (s1 == s4) + " разные ссылки");//f
+        System.out.println("s2==s6 это " + (s2 == s6) + " разные ссылки");//f
         System.out.println("\ns4 = " + s4 + "   s5 = " + s5);
-        System.out.println("s4==s5 это " + (s4 == s5) + " разные ссылки");
-        System.out.println("s4.equals(s5) это " + s4.equals(s5) + " одинаковое содержимое");
-        System.out.println("s4.equals(s1) это " + s4.equals(s1) + " одинаковое содержимое");
-        System.out.println("s2.equals(s6) это " + s2.equals(s6) + " одинаковое содержимое");
+        System.out.println("s4==s5 это " + (s4 == s5) + " разные ссылки");//t
+        System.out.println("s4.equals(s5) это " + s4.equals(s5) + " одинаковое содержимое");//t
+        System.out.println("s4.equals(s1) это " + s4.equals(s1) + " одинаковое содержимое");//t
+        System.out.println("s2.equals(s6) это " + s2.equals(s6) + " одинаковое содержимое");//t
 
+        System.out.println("s9==s8 это " + (s9 == s8) + " разные ссылки");//f
     }
 
 }

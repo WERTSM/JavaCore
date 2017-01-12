@@ -10,7 +10,7 @@ public class String015 {
 
         String abc = "abc";
         String def = "def";
-        String abc0 = "abc0";
+        String abc0 = "abc00000";
 
         System.out.println("abc.compareTo(def) = " + abc.compareTo(def));
         System.out.println("abc.compareTo(abc) = " + abc.compareTo("abc"));
