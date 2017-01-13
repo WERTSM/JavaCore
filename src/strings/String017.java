@@ -23,9 +23,7 @@ public class String017 {
                 + strTst2.replaceFirst("(-|\\+)?\\d+", "*NUMBER*"));
 
         for (int i = 0; i < args.length; ++i) {
-            System.out.println("args[" + i + "] = " + args[i]
-                    + (args[i].matches("(-|\\+)?\\d+") ? " подходит"
-                    : " не подходит"));
+            System.out.println("args[" + i + "] = " + args[i] + (args[i].matches("(-|\\+)?\\d+") ? " подходит" : " не подходит"));
         }
     }
 }
