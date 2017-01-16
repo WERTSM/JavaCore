@@ -4,7 +4,7 @@ package classesIntro;
  * Created by WERT on 13.01.2017.
  */
 
-import static classesIntro.Print.printLine;
+import static util.Print.printLine;
 
 public class Classes003 {
 

@@ -1,4 +1,4 @@
-package classesIntro;
+package util;
 
 public class Print {
 
