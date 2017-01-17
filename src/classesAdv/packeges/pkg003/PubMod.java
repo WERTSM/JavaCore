@@ -1,13 +1,14 @@
 package classesAdv.packeges.pkg003;
 
-import static util.Print.*;
-
+/**
+ * Created by WERT on 16.01.2017.
+ */
 public class PubMod {
 
-	public static int pubInt = 16;
+    public static int pubInt = 16;
 
-	public static void pubPrtLine() {
-		println("--- pubPrtLine ---");
-	}
+    public static void pubPrtLine() {
+        System.out.println("--- pubPrtLine ---");
+    }
 
 }
