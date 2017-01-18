@@ -5,6 +5,7 @@ package classesAdv;
  */
 public class FinalAndPrivat {
     private void fAP() {
+        //final void fAP() { Ошибка при переопределении!
         System.out.println("Root");
     }
 
