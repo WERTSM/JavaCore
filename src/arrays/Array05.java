@@ -1,7 +1,7 @@
 package arrays;
 
-import static arrays.Numbers.randomInRange;
-import static arrays.Strings.stringIsInteger;
+import static util.Numbers.randomInRange;
+import static util.Strings.stringIsInteger;
 
 public class Array05 {
 

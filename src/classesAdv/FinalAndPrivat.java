@@ -5,7 +5,7 @@ package classesAdv;
  */
 public class FinalAndPrivat {
     private void fAP() {
-        //final void fAP() { Ошибка при переопределении!
+        //final void fAP() { Ошибка при переопределении! Нельзя переопределять!!!
         System.out.println("Root");
     }
 
@@ -18,5 +18,5 @@ public class FinalAndPrivat {
 class Branch extends FinalAndPrivat {
     void fAP() {
         System.out.println("Branch");
-    }
+    } // Не переопределение, т.к. private()
 }

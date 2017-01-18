@@ -4,7 +4,7 @@ package strings;
  * Created by WERT on 09.01.2017.
  */
 
-import static arrays.Numbers.randomInRange;
+import static util.Numbers.randomInRange;
 
 public class String020 {
 

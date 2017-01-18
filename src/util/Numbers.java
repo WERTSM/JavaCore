@@ -1,4 +1,4 @@
-package arrays;
+package util;
 
 /**
  * Created by WERT on 22.12.2016.

@@ -2,7 +2,7 @@ package arrays;
 
 import java.util.Arrays;
 
-import static arrays.Numbers.randomInRange;
+import static util.Numbers.randomInRange;
 
 /**
  * Created by WERT on 22.12.2016.

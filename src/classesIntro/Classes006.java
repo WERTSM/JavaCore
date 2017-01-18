@@ -4,7 +4,7 @@ package classesIntro;
  * Created by WERT on 13.01.2017.
  */
 
-import static arrays.Strings.stringIsInteger;
+import static util.Strings.stringIsInteger;
 
 public class Classes006 {
 

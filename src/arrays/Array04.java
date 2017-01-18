@@ -1,7 +1,7 @@
 package arrays;
 
-import static arrays.Numbers.*;
-import static arrays.Strings.*;
+import static util.Numbers.*;
+import static util.Strings.*;
 /**
  * Created by WERT on 22.12.2016.
  */

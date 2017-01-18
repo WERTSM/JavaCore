@@ -3,7 +3,7 @@ package arrays;
 /**
  * Created by WERT on 22.12.2016.
  */
-import static arrays.Numbers.*;
+import static util.Numbers.*;
 
 public class Array02 {
 

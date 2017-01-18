@@ -1,6 +1,6 @@
 package arrays;
 
-import static arrays.Numbers.*;
+import static util.Numbers.*;
 /**
  * Created by WERT on 22.12.2016.
  */
