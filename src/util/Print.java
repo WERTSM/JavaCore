@@ -2,18 +2,6 @@ package util;
 
 public class Print {
 
-	public static void println(Object obj) {
-		System.out.println(obj);
-	}
-
-	public static void println() {
-		System.out.println();
-	}
-
-	public static void print(Object obj) {
-		System.out.print(obj);
-	}
-
 	public static void printf(String format, Object... args) {
 		System.out.printf(format, args);
 	}
@@ -24,7 +12,7 @@ public class Print {
 				Integer.toBinaryString(byteForPrint & 0xFF)).replace(' ', '0');
 		byteBinayStr = byteBinayStr.substring(0, 4) + "_"
 				+ byteBinayStr.substring(4);
-		print(byteBinayStr);
+		System.out.print(byteBinayStr);
 	}
 
 	public static void printlnByte(byte printByte) {
@@ -33,7 +21,7 @@ public class Print {
 				Integer.toBinaryString(byteForPrint & 0xFF)).replace(' ', '0');
 		byteBinayStr = byteBinayStr.substring(0, 4) + "_"
 				+ byteBinayStr.substring(4);
-		println(byteBinayStr);
+		System.out.println(byteBinayStr);
 	}
 
 	public static void printInt(int printInt) {
@@ -47,7 +35,7 @@ public class Print {
 				+ intBinayStr.substring(20, 24) + "_"
 				+ intBinayStr.substring(24, 28) + "_"
 				+ intBinayStr.substring(28);
-		print(intBinayStr);
+		System.out.print(intBinayStr);
 	}
 
 	public static void printlnInt(int printInt) {
@@ -61,41 +49,41 @@ public class Print {
 				+ intBinayStr.substring(20, 24) + "_"
 				+ intBinayStr.substring(24, 28) + "_"
 				+ intBinayStr.substring(28);
-		println(intBinayStr);
+		System.out.println(intBinayStr);
 	}
 
 	public static void printLine(char lineChar, int q) {
 		for (int i = 1; i <= q; ++i)
-			print(lineChar);
+			System.out.print(lineChar);
 	}
 
 	public static void printLine(int q) {
 		for (int i = 1; i <= q; ++i)
-			print('-');
+			System.out.print('-');
 	}
 
 	public static void printLine() {
 		for (int i = 1; i <= 10; ++i)
-			print('-');
+			System.out.print('-');
 	}
 
 	public static void printLnLineLn() {
-		println();
+		System.out.println();
 		for (int i = 1; i <= 10; ++i)
-			print('-');
-		println();
+			System.out.print('-');
+		System.out.println();
 	}
 	
 	public static void printLnLineLn(char lineChar, int q) {
-		println();
+		System.out.println();
 		for (int i = 1; i <= q; ++i)
-			print(lineChar);
-		println();
+			System.out.print(lineChar);
+		System.out.println();
 	}
 
 	public static void printStrInLine(String str, char lineChar, int q) {
 		printLine(lineChar, q);
-		print(str);
+		System.out.print(str);
 		printLine(lineChar, q);
 	}
 
