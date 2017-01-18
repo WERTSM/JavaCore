@@ -4,14 +4,14 @@ package classesAdv.polymorphism.binding.late;
  * Created by WERT on 18.01.2017.
  */
 class Shape2 {
-
+    //Полиморфные методы при вызове из конструктора.
     void drow() {
         System.out.println("Shape2.drow()");
     }
 
     Shape2() {
         System.out.println("Shape2() перед вызовом drow()");
-        drow();
+        drow(); //память под объект выделается еще до вызова конструктора этого объекта - поэтому null, а не выше метод drow()
         System.out.println("Shape2() после вызова drow()");
     }
 }
