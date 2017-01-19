@@ -1,4 +1,4 @@
-package innerclasses.nested;
+package innerclasses.nested_static.nested;
 
 /**
  * Created by WORK_WERT on 19.01.2017.

@@ -1,4 +1,4 @@
-package innerclasses.human;
+package innerclasses.nested_static.human;
 
 public class Human {
 

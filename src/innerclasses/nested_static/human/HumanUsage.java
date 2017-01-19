@@ -1,4 +1,4 @@
-package innerclasses.human;
+package innerclasses.nested_static.human;
 
 /**
  * Created by WORK_WERT on 19.01.2017.

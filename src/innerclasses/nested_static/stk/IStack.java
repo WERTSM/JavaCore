@@ -1,4 +1,4 @@
-package innerclasses.stk;
+package innerclasses.nested_static.stk;
 
 /**  * Created by WORK_WERT on 19.01.2017.  */
 

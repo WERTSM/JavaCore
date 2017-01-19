@@ -1,10 +1,10 @@
-package innerclasses.nested;
+package innerclasses.nested_static.nested;
 
 /**
  * Created by WORK_WERT on 19.01.2017.
  */
 
-import innerclasses.nested.Outer.IGetNames.GetNames;
+import innerclasses.nested_static.nested.Outer.IGetNames.GetNames;
 
 public class Main {
 
