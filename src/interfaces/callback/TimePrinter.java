@@ -1,4 +1,4 @@
-package callback;
+package interfaces.callback;
 /**
  * Created by WORK_WERT on 19.01.2017.
  */
