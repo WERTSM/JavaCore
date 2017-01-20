@@ -5,7 +5,7 @@ package inner_anonym_local_and_nested_classes.inner_nonstatic.inner03;
  */
 public class Main {
 
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         // Примеры наследования внутренних классов и операторов new и super
         Outer out = new Outer();
         Outer.Inner01 in01 = out.new Inner01();
@@ -22,6 +22,6 @@ public class Main {
         External ex = new External();
         ex.printStr();
 
-    }*/
+    }
 
 }
