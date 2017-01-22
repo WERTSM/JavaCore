@@ -3,7 +3,7 @@ package inner_anonym_local_and_nested_classes.inner_nonstatic.inner03;
 /**
  * Created by WORK_WERT on 19.01.2017.
  */
-public class Outer {
+public class Outer {/*
 
     private String outstr = "Outer";
     private String str = "strOuter00";
@@ -75,5 +75,5 @@ class External extends Outer.Inner01 {
         super.printStr();
         System.out.println("External>" + getOutStr());
         System.out.println("External>" + getStrInn01());
-    }
+    }*/
 }
