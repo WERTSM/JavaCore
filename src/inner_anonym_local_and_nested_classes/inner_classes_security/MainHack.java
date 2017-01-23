@@ -1,4 +1,4 @@
-package inner_anonym_local_and_nested_classes.inner_nonstatic.innerclassessec;
+package inner_anonym_local_and_nested_classes.inner_classes_security;
 
 /**
  * Created by WORK_WERT on 19.01.2017.

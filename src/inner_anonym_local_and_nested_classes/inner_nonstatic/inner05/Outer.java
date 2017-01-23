@@ -28,8 +28,7 @@ public class Outer {
         }
 
         String getStr() {
-            return str + " " + super.str
-                    + " " + Outer.this.str;
+            return str + " " + super.str + " " + Outer.this.str;
         }
     }
 }
