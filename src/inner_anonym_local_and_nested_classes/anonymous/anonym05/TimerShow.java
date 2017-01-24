@@ -1,4 +1,4 @@
-package inner_anonym_local_and_nested_classes.anonymous.anonym06;
+package inner_anonym_local_and_nested_classes.anonymous.anonym05;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

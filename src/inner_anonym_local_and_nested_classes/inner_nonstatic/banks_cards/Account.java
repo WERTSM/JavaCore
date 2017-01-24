@@ -1,4 +1,4 @@
-package inner_anonym_local_and_nested_classes.anonymous.anonym05;
+package inner_anonym_local_and_nested_classes.inner_nonstatic.banks_cards;
 
 public class Account {
 	private double amount = 108;

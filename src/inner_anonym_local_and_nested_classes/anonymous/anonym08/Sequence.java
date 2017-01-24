@@ -1,4 +1,4 @@
-package inner_anonym_local_and_nested_classes.anonymous.anonym09;
+package inner_anonym_local_and_nested_classes.anonymous.anonym08;
 
 /**
  * Created by WORK_WERT on 19.01.2017.

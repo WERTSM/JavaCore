@@ -13,8 +13,6 @@ abstract class Base {
         System.out.println("Base constructor, Base.i= " + Base.i);
     }
 
-    ;
-
     public abstract void f();
 
     public static Base getAnonBase(int i) {

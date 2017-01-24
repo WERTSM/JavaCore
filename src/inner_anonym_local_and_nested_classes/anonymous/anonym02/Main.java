@@ -8,8 +8,6 @@ class External {
     External() {
     }
 
-    ;
-
     Object getThis() {
         return this;
     }
